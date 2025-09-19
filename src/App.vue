@@ -26,8 +26,6 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <style lang="scss">
-@import "@/assets/styles/variables";
-
 .app {
   max-width: 1280px;
   margin: 0 auto;

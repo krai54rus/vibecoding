@@ -15,8 +15,6 @@ defineProps<{
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/styles/variables";
-
 .drag-item-placeholder {
   padding: $spacing-2;
   margin: $spacing-1 0;

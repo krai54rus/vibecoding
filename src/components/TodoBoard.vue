@@ -8,8 +8,6 @@
       :items="list.items"
       class="todo-list"
       @drop="handleDrop"
-      @drag-start="handleDragStart"
-      @drag-end="handleDragEnd"
     />
   </div>
 </template>
@@ -94,8 +92,6 @@ const handleDragEnd = () => {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/styles/variables";
-
 .todo-board {
   display: flex;
   gap: $spacing-6;

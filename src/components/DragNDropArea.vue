@@ -152,8 +152,6 @@ const handleDragLeave = (event: DragEvent) => {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/styles/variables";
-
 .drag-drop-area {
   min-height: 100px;
   border: 2px dashed $border-color;
